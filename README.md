@@ -25,13 +25,12 @@ Alguns Comandos
 ```
 vagrant ssh
 ```
-
 2.Updating box para ultima versão
 ```
 vagrant box update
 ```
 
-Sharing access to the box
+Acesso compartilhado na box
 -------------------------
 ...
 localhost:8080
@@ -40,8 +39,8 @@ localhost:8080
 suaPasta/www/html/
 ```
 
-1. Plugins requeridos Vagrant
-
+Plugins requeridos Vagrant
+--------------------------
     ```
 vagrant plugin install vagrant-vbguest
     ```
