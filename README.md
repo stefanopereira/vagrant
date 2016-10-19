@@ -30,6 +30,17 @@ vagrant ssh
 vagrant box update
 ```
 
+Configurando Vagrant SSH
+------------------------
+
+1. Instale o Git
+2. Coloque o bin do Git no Variável do ambiente do usuario.
+3. Teste o comando na pasta do vagrant 
+
+...
+vagrant ssh
+...
+
 Acesso compartilhado na box
 -------------------------
 ...
