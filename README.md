@@ -52,8 +52,8 @@ suaPasta/www/html/
 
 Plugins requeridos Vagrant
 --------------------------
-    ```
+``
 vagrant plugin install vagrant-vbguest
-    ```
+```
 
 :)
