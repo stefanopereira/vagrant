@@ -58,4 +58,9 @@ Plugins requeridos Vagrant
 vagrant plugin install vagrant-vbguest
 ```
 
+Dependecies DBLIB
+--------------------------
+1. sudo apt-get install php5-sybase freetds-common libsybdb5
+2. sudo apache2ctl restart
+
 :)
