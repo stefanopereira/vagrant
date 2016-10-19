@@ -8,9 +8,11 @@ Instalação
 
 2. Instalação [Vagrant](http://www.vagrantup.com/)
 
-3. Baixe os arquivos e descompacte estes arquivos
+3. Instalação [GIT](https://git-scm.com/downloads/)
 
-4. Rode os comandos na pasta 
+4. Baixe os arquivos e descompacte estes arquivos
+
+5. Rode os comandos na pasta 
 ```
 vagrant up --provision
 ```
