@@ -37,9 +37,9 @@ Configurando Vagrant SSH
 2. Coloque o bin do Git no Variável do ambiente do usuario.
 3. Teste o comando na pasta do vagrant 
 
-...
+```
 vagrant ssh
-...
+```
 
 Acesso compartilhado na box
 -------------------------
