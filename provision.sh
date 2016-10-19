@@ -28,6 +28,7 @@ sudo apt-get install redis-server --assume-yes
 sudo apt-get install php5-redis
 sudo apt-get install php5-imap
 sudo apt-get install php5-intl
+sudo apt-get install php5-sybase
 sudo php5enmod imap
 sudo service apache2 restart
 sudo php composer.phar require --dev behat/behat
