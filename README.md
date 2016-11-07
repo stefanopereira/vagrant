@@ -27,9 +27,45 @@ Alguns Comandos
 ```
 vagrant ssh
 ```
-2.Updating box para ultima versão
+
+2. Updating box para ultima versão
 ```
 vagrant box update
+```
+
+3. Faz o boot na máquina virtual e executa os provisioners definidos
+```
+vagrant up
+```
+
+4. Reinicia a máquina virtual.
+```
+vagrant reload
+```
+
+5. Roda apenas os provisioners, sem reiniciar a máquina.
+```
+vagrant provision  
+```
+
+6. Destrói a máquina virtual. 
+```
+vagrant destroy
+```
+
+7. "Desliga" a máquina, equivalente a um shutdown
+```
+vagrant halt
+```
+
+7.  suspende a execução da máquina virtual salvando seu estado
+```
+vagrant suspend  
+```
+
+7. Retoma uma máquina virtual previamente suspensa
+```
+vagrant resume  
 ```
 
 Configurando Vagrant SSH
