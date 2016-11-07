@@ -81,9 +81,10 @@ vagrant ssh
 
 Acesso compartilhado na box
 -------------------------
-...
+```
 localhost:8080
-...
+```
+
 ```
 suaPasta/www/html/
 ```
