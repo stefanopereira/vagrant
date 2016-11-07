@@ -63,4 +63,24 @@ Dependecies DBLIB
 1. sudo apt-get install php5-sybase freetds-common libsybdb5
 2. sudo apache2ctl restart
 
+Configurando URL amigavel
+--------------------------
+1. Editar o arquivo
+```
+nano /etc/apache2/sites-available/000-default.conf
+```
+
+2- Acrescentar o codigo abaixo:
+````
+ServerAdmin webmaster@localhost
+DocumentRoot /var/www/html
+<Directory "/var/www/html">
+        AllowOverride All
+</Directory>
+````
+
+
+
+
+
 :)
